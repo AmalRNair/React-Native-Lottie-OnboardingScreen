@@ -14,7 +14,7 @@ export default function Home(){
         await removeItem('onboarded')
         navigation.push('OnboardingScreen')
     }
-    
+     
     return(
         <SafeAreaView style={styles.container}>
             <Text>HOME</Text>
